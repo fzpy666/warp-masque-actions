@@ -43,7 +43,7 @@ jobs:
 
       - name: 推送到 Worker
         env:
-          URL: ${{ secrets.WORKER_PUSH_URL }}
+          URL: ${{ secrets.WORKER_PUSH_URL https://warp.9527top.dpdns.org/push/0588cc2e65404d7e9abd184128b77069c2ed3cca2b374c71a62ca36ee7728edf }}
         run: |
           set -euo pipefail
           if [ -z "${URL:-}" ]; then
